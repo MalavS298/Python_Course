@@ -1,0 +1,46 @@
+set – An unordered collection that does not allow duplicate values. Set items cannot be changed, but items can be added or removed.
+len() – Returns the number of items in a set.
+in – Checks if an item is present in the set.
+not in – Checks if an item is not present in the set.
+
+Adding Items
+    add() – Adds one item to a set.
+    update() – Adds multiple items from another collection to a set.
+
+Removing Items
+    remove() – Removes a specified item. Gives an error if the item does not exist.
+    discard() – Removes a specified item. Does not give an error if the item does not exist.
+    pop() – Removes and returns a random item from the set.
+    clear() – Removes all items from the set.
+    del – Deletes the entire set.
+
+Looping
+    for x in set: – Loops through each item in the set.
+
+Joining Sets
+    union() – Combines items from two or more sets and removes duplicates.
+    | – Shortcut for union().
+    update() – Adds items from another set/collection directly into the existing set.
+
+Intersection
+    intersection() – Returns only the items that exist in both sets.
+    & – Shortcut for intersection().
+    intersection_update() – Keeps only the items that exist in both sets and changes the existing set.
+
+Difference
+    difference() – Returns items that are in the first set but not the other set.
+    - – Shortcut for difference().
+    difference_update() – Removes items found in the other set from the existing set.
+
+Symmetric Difference
+    symmetric_difference() – Returns items that are in either set, but not in both.
+    ^ – Shortcut for symmetric_difference().
+    symmetric_difference_update() – Updates the existing set to contain only items that are not shared between the sets.
+
+Frozensets
+    frozenset() – Creates an immutable version of a set. Items cannot be added or removed.
+    copy() – Returns a copy of the frozenset.
+    difference() – Returns the items that are in the first frozenset but not the other.
+    symmetric_difference() – Returns items that are in either frozenset, but not both.
+    intersection() – Returns items that exist in both frozensets.
+    union() – Combines two frozensets and removes duplicates.

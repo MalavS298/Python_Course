@@ -1,0 +1,27 @@
+[index] – Accesses a character at a specific position in a string.
+len() – Returns the length of the string.
+in – Checks if a substring is present in a string.
+[start:end] – Returns a slice of the string (end index not included).
+[:end] – Returns characters from the beginning to end.
+[start:] – Returns characters from start to the end.
+[-start:-end] – Slices the string using negative indexing.
+
+Methods:
+    upper() – Converts all letters to uppercase.
+    lower() – Converts all letters to lowercase.
+    strip() – Removes whitespace from the beginning and end of the string.
+    replace(old, new) – Replaces all occurrences of one substring with another.
+    split(separator) – Splits the string into a list using the specified separator.
+    Other Syntax
+    + – Concatenates (joins) strings.
+    f"..." – Creates an f-string to insert variables into a string.
+    {value:.2f} – Formats a number to 2 decimal places in an f-string.
+
+Escape Characters:
+    \" – Double quote.
+    \' – Single quote.
+    \\ – Backslash.
+    \n – New line.
+    \r – Carriage return.
+    \t – Tab.
+    \b – Backspace.

@@ -1,0 +1,26 @@
+len() – Returns the number of items in a tuple.
+[index] – Accesses an item at a specific index.
+[start:end] – Returns a slice of the tuple (end index not included).
+list() – Converts a tuple into a list.
+tuple() – Converts a list into a tuple.
+del – Deletes the entire tuple.
++= – Adds/combines another tuple with the existing tuple.
++ – Joins two tuples together.
+* – Repeats a tuple a specified number of times.
+
+Tuple Creation:
+    ("item",) – Creates a tuple with one item. The comma is required.
+    ("item1", "item2") – Creates a tuple with multiple items.
+
+Unpacking
+    (a, b, c) = tuple – Assigns each tuple item to a variable.
+    *variable – Assigns multiple remaining items to that variable during unpacking.
+
+Looping
+    for x in tuple: – Loops through each item in the tuple.
+    range(len(tuple)) – Loops through the indexes of a tuple.
+    while – Loops through a tuple while a condition is true.
+
+Methods
+    count() – Returns the number of times a specified value occurs in a tuple.
+    index() – Searches for a specified value and returns its position.
