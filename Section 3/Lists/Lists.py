@@ -27,7 +27,10 @@ thislist.pop(1) #Removes item via # Index
 del thislist[0] #Delete/Remove like this too
 del thislist #Delete the whole list
 
+"List Comprehension"
 pool = [x for x in thislist] #Cycle through without doing for x in x...
+#Format: [expression for item in iterable if condition]
+pool = [x for x in range(1, 51) if x % 3 == 0]
 
 thislist.sort() #Sort the list alphanumerically
 thislist.sort(reverse = True) #Sort descending order
